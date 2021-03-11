@@ -34,7 +34,7 @@
   @include supportIE11() {
     color:$secondary-color !important;
     &:hover {
-      color:$white-color !important;
+      color:$dark-color !important;
     }
   }
   // Responsive Button hero style
@@ -57,7 +57,7 @@
   }
 
   &:hover {
-    -webkit-text-fill-color: $white-color;
+    -webkit-text-fill-color: $dark-color;
     text-decoration: none;
     // Responsive Button hover hero style
     @include respond(phone) {
@@ -72,11 +72,11 @@
 
 /* Resume Style */
 .cta-btn--resume {
-  color: $white-color;
-  border: 2px solid $white-color;
+  color: $light-color;
+  border: 2px solid $light-color;
   
   &::after {
-    background: $white-color;
+    background: $light-color;
   }
 
   &:hover {
